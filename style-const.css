@@ -1,0 +1,25 @@
+@font-face {
+    font-family:fuente;
+    src: url(/fonts\nasa21\Nasa21.ttf);
+}
+
+img{
+    width: 800px;
+}
+
+ul{
+    float:left;
+    color: white;
+    list-style: none;
+}
+
+li{
+    background-color: #3d3c3c;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    font-family: sans-serif;
+}
+

@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alpacas</title>
+    <title>Project</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" crossorigin="anonymous">
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
-        <div id="titulo">
-
-        </div>
+        
+        
         <div id="constelaciones">
-            <div id="const_1"></div>
-            <div id="const_2"></div>
-            <div id="const_3"></div>
-            <div id="const_4"></div>
-            <div id="const_5"></div>
-            <div id="const_6"></div>
-            <div id="const_7"></div>
-            <div id="const_8"></div>
+                <div id="titulo">
+                    <img src="img/titulo_main.png" class="constelaciones_main">
+                </div>
+                <div id="const_1960" class="constelaciones_main" onclick="window.location.href='const1.html'; localStorage.setItem('decadaID', 101)">
+                    <img src="img/const1960_main.png" class="constelaciones_main">
+                </div>
+                <div id="const1970" class="constelaciones_main" onclick="window.location.href='const2.html'; localStorage.setItem('decadaID', 102)">
+                    <img src="img/const1970_main.png" class="constelaciones_main">    
+                </div>
+                <div id="const1980" class="constelaciones_main" onclick="window.location.href='const3.html'; localStorage.setItem('decadaID', 103)">
+                    <img src="img/const1980_main.png" class="constelaciones_main">
+                </div>
+                <div id="const1990" class="constelaciones_main n1990" onclick="window.location.href='const4.html'; localStorage.setItem('decadaID', 104)">
+                    <img src="img/const1990_main.png" class="constelaciones_main">
+                </div>
+                <div id="const2000" class="constelaciones_main" onclick="window.location.href='const5.html'; localStorage.setItem('decadaID', 105)"> 
+                    <img src="img/const2000_main.png" class="constelaciones_main">
+                </div>
+
+                <div id="const2010" class="constelaciones_main" onclick="window.location.href='const6.html'; localStorage.setItem('decadaID', 106)">
+                    <img src="img/const2010_main.png" class="constelaciones_main">
+                </div>
+                <div id="const2020" class="constelaciones_main" onclick="window.location.href='const7.html'; localStorage.setItem('decadaID', 107)">
+                    <img src="img/const2020_main.png" class="constelaciones_main">
+                </div>
         </div>
     </main>
 
     <script src="script.js"></script>
+    <script src="const_script.js"></script>
 </body>
 </html>

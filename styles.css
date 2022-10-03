@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background_main.jpg);
+    height: 100vh;
+    overflow: hidden;
+    }
+
+/* 
+.constelacion_main{
+    width: 2px;
+} */
+
+img.constelaciones_main{
+    width: 311.5px;
+    margin-left: 30px;    
+}
+
+
+
+#constelaciones{
+    margin-right: 0;
+    display:flex;
+    align-content:stretch;
+    flex-wrap: wrap;
+
+}
+
+
